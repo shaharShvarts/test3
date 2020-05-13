@@ -1,0 +1,12 @@
+#page-tabs {
+  color: #ffffff;
+  margin: 20px auto;
+  width: 80%;
+  text-align: center;
+}
+
+#page-tabs header {
+  font: 20px Alef;
+  border-bottom: 1px solid #ffffff;
+  padding-bottom: 3px;
+}

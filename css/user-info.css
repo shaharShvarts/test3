@@ -1,0 +1,59 @@
+#user-info .user-image {
+  position: relative;
+}
+
+#user-info .user-image img {
+  border: 3px solid #ffffff;
+  border-radius: 50%;
+  object-fit: cover;
+  display: block;
+  height: 160px;
+  width: 160px;
+  margin: 10px auto 0;
+}
+
+#user-info .user-image:hover::before {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  content: "";
+  top: 0;
+  left: 0;
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  content: "\f030";
+  font-size: 100px;
+  justify-content: center;
+  align-items: center;
+  color: #4610b19e;
+  cursor: pointer;
+}
+
+#user-info .username {
+  font: bold 22px "Alef";
+  margin: 10px 0;
+  color: #6ba8a9;
+  text-align: center;
+}
+#user-info .container {
+  color: #c8c8c8;
+  display: flex;
+  justify-content: space-evenly;
+  background: #357376;
+  height: 32px;
+  align-items: center;
+}
+
+#user-info .user-btn {
+  /* display: flex; */
+}
+
+#user-info .user-btn:hover {
+  color: #0275d8;
+  cursor: pointer;
+}
+
+#user-info .fs::before {
+  margin: 0 5px;
+}
